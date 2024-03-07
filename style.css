@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #FFEE93;
+    color: #000000;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f0f1ec;
+}
+
+
+.main-section {
+    background-color: #ecf0f1;
+    padding: 50px 0;
+ 
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.services {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+.services h2{
+padding: 10px;
+font-size: 40px;
+
+}
+
+.service {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.contact-section {
+    background-color: #3498db;
+    color: #8C6A40;
+    padding: 50px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+button {
+    background-color: #FFEE93;
+    color: #3498db;
+    padding: 10px;
+    cursor: pointer;
+}
+.cta-button {
+    display: block;
+    width: 100%;
+    background-color: #FFEE93;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #FFEE93;
+    color: #050505;
+    text-align: center;
+    padding: 20px 0;
+}
